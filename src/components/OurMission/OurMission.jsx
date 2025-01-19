@@ -37,16 +37,10 @@ const OurMission = () => {
                         />
                     </p>
                     <p className="mt-4 text-gray-600 dark:text-gray-300 text-justify">
-                        FundFusion is dedicated to supporting businesses, fostering innovation,
-                        and bridging the gap between opportunities and challenges. Our mission
-                        is to create a thriving ecosystem where ideas flourish, communities
-                        connect, and sustainable growth becomes a reality.
+                        FundFusion is committed to empowering businesses, driving innovation, and closing the gap between opportunities and challenges. Our goal is to build a vibrant ecosystem where ideas thrive, communities unite, and sustainable growth becomes achievable.
                     </p>
                     <p className="mt-4 text-gray-600 dark:text-gray-300 text-justify">
-                        We believe in the power of collaboration and innovation to make a
-                        lasting impact. Join us on this transformative journey as we work
-                        together to overcome challenges and create opportunities for growth
-                        and success.
+                        We believe in the strength of teamwork and creativity to create a lasting difference. Join us on this inspiring journey as we unite to tackle challenges and unlock opportunities for growth and achievement.
                     </p>
                     <div className="mt-6">
                         <Link to={'/campaigns'} className="px-6 py-2 text-md font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg shadow-lg transition-transform transform focus:ring-4 focus:ring-indigo-400 focus:outline-none">
