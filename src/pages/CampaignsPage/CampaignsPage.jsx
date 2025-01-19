@@ -39,7 +39,7 @@ const CampaignsPage = () => {
   return (
     <div className="pt-10 pb-16 px-4 max-w-7xl mx-auto">
       <Helmet>
-        <title>CrowdHex | All Campaigns</title>
+        <title>FundFusion | All Campaigns</title>
       </Helmet>
       <div className=" ">
         <SectionTitle title="All Campaigns" subtitle="Explore and support the active campaigns." />

@@ -93,7 +93,7 @@ const RegisterPage = () => {
     return (
         <div className="flex items-center justify-center my-6">
         <Helmet>
-          <title>CrowdHex | Register</title>
+          <title>FundFusion | Register</title>
         </Helmet>
         <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:shadow-gray-900">
           <h2 className="text-2xl font-bold text-center text-gray-700 dark:text-gray-200">

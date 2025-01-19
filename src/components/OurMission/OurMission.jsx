@@ -37,7 +37,7 @@ const OurMission = () => {
                         />
                     </p>
                     <p className="mt-4 text-gray-600 dark:text-gray-300 text-justify">
-                        CrowdHex is dedicated to supporting businesses, fostering innovation,
+                        FundFusion is dedicated to supporting businesses, fostering innovation,
                         and bridging the gap between opportunities and challenges. Our mission
                         is to create a thriving ecosystem where ideas flourish, communities
                         connect, and sustainable growth becomes a reality.
@@ -49,7 +49,7 @@ const OurMission = () => {
                         and success.
                     </p>
                     <div className="mt-6">
-                        <Link to={'/campaigns'} className="px-6 py-2 text-md font-semibold text-white bg-teal-600 hover:bg-teal-700 rounded-lg shadow-lg transition-transform transform focus:ring-4 focus:ring-teal-400 focus:outline-none">
+                        <Link to={'/campaigns'} className="px-6 py-2 text-md font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg shadow-lg transition-transform transform focus:ring-4 focus:ring-indigo-400 focus:outline-none">
                             Get Involved
                         </Link>
                     </div>

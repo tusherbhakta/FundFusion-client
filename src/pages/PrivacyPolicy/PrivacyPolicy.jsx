@@ -4,14 +4,14 @@ const PrivacyPolicy = () => {
             <div className="max-w-4xl mx-auto">
                 <h1 className="text-3xl lg:text-4xl font-bold mb-6">Privacy Policy</h1>
                 <p className="mb-4 text-lg">
-                    Welcome to CrowdHex! Your privacy is critically important to us. This
+                    Welcome to FundFusion! Your privacy is critically important to us. This
                     Privacy Policy outlines the types of information we collect, how we
                     use it, and the measures we take to protect your data.
                 </p>
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4">1. Information We Collect</h2>
                     <p className="mb-2">
-                        When you use CrowdHex, we may collect the following types of
+                        When you use FundFusion, we may collect the following types of
                         information:
                     </p>
                     <ul className="list-disc list-inside space-y-2 pl-4">
@@ -47,11 +47,11 @@ const PrivacyPolicy = () => {
                         You have the right to access, update, or delete your personal
                         information. To exercise these rights, please contact us at
                         <a
-                            href="mailto:support@crowdhex.com"
-                            className="text-teal-500 hover:text-teal-400"
+                            href="mailto:support@FundFusion.com"
+                            className="text-indigo-500 hover:text-indigo-400"
                         >
                             {" "}
-                            support@crowdhex.com
+                            support@FundFusion.com
                         </a>
                         .
                     </p>
@@ -68,10 +68,10 @@ const PrivacyPolicy = () => {
                         If you have any questions about this Privacy Policy, please contact
                         us at{" "}
                         <a
-                            href="mailto:support@crowdhex.com"
-                            className="text-teal-500 hover:text-teal-400"
+                            href="mailto:support@FundFusion.com"
+                            className="text-indigo-500 hover:text-indigo-400"
                         >
-                            support@crowdhex.com
+                            support@FundFusion.com
                         </a>
                         .
                     </p>

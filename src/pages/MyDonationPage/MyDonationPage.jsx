@@ -64,7 +64,7 @@
 //   return (
 //     <div className="py-10">
 //       <Helmet>
-//         <title>CrowdHex | My Donations</title>
+//         <title>FundFusion | My Donations</title>
 //       </Helmet>
 //       <div className="container mx-auto px-4">
 //         <div className=" mb-10">
@@ -151,7 +151,7 @@ const MyDonationPage = () => {
   return (
     <div className="py-10 bg-gray-50 dark:bg-gray-900">
       <Helmet>
-        <title>CrowdHex | My Donations</title>
+        <title>FundFusion | My Donations</title>
       </Helmet>
       <div className="max-w-7xl mx-auto px-4">
         <div className="mb-10">
@@ -170,7 +170,7 @@ const MyDonationPage = () => {
                 key={donation.id}
                 className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md border-2 border-gray-600 dark:border-gray-700"
               >
-                <h3 className="text-lg font-bold text-teal-600 dark:text-teal-400 mb-2">
+                <h3 className="text-lg font-bold text-indigo-600 dark:text-indigo-400 mb-2">
                   {donation.campaignTitle}
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-1">

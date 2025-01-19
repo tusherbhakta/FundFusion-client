@@ -6,14 +6,14 @@ const TermsOfService = () => {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl lg:text-4xl font-bold mb-6">Terms of Service</h1>
         <p className="mb-4 text-lg">
-          Welcome to CrowdHex! By accessing or using our platform, you agree to
+          Welcome to FundFusion! By accessing or using our platform, you agree to
           abide by the following Terms of Service. Please read them carefully.
         </p>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
           <p>
-            By using CrowdHex, you agree to comply with and be legally bound by
+            By using FundFusion, you agree to comply with and be legally bound by
             these Terms of Service, as well as our Privacy Policy. If you do not
             agree to any of these terms, you must not use our platform.
           </p>
@@ -23,7 +23,7 @@ const TermsOfService = () => {
           <h2 className="text-2xl font-semibold mb-4">2. Eligibility</h2>
           <p>
             You must be at least 18 years old or have the consent of a parent or
-            guardian to use our services. By using CrowdHex, you represent and
+            guardian to use our services. By using FundFusion, you represent and
             warrant that you meet this requirement.
           </p>
         </section>
@@ -56,7 +56,7 @@ const TermsOfService = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">5. Limitation of Liability</h2>
           <p>
-            CrowdHex is not liable for any direct, indirect, incidental,
+            FundFusion is not liable for any direct, indirect, incidental,
             consequential, or punitive damages arising from your use of the
             platform. All transactions are at your own risk.
           </p>
@@ -74,7 +74,7 @@ const TermsOfService = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">7. Changes to Terms</h2>
           <p>
-            CrowdHex may update these Terms of Service from time to time. Any
+            FundFusion may update these Terms of Service from time to time. Any
             changes will be posted on this page with an updated effective date.
             Continued use of the platform constitutes acceptance of the updated
             terms.
@@ -86,10 +86,10 @@ const TermsOfService = () => {
             If you have any questions about these Terms of Service, please
             contact us at{" "}
             <a
-              href="mailto:support@crowdhex.com"
-              className="text-teal-500 hover:text-teal-400"
+              href="mailto:support@FundFusion.com"
+              className="text-indigo-500 hover:text-indigo-400"
             >
-              support@crowdhex.com
+              support@FundFusion.com
             </a>
             .
           </p>

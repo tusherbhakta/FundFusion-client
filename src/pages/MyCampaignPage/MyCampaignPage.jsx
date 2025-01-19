@@ -107,7 +107,7 @@ const MyCampaignPage = () => {
   return (
     <div className="py-10">
       <Helmet>
-        <title>CrowdHex | My Campaigns</title>
+        <title>FundFusion | My Campaigns</title>
       </Helmet>
       <div className="max-w-[1600px] mx-auto px-4">
         <div className="mb-10">
