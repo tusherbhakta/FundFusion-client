@@ -27,6 +27,7 @@ const UpdateCampaigns = () => {
       .then((response) => {
         setCampaignDetails(response.data);
         setFormData({
+          // set formData 
           image: response.data.image || "",
           title: response.data.title || "",
           type: response.data.type || "personal issue",
