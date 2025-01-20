@@ -70,7 +70,7 @@ const CampaignsPage = () => {
             to={`/campaigns/${value}`}
             className="text-white rounded hover:underline px-4 py-2 bg-indigo-500"
           >
-            View Details
+            Details
           </Link>
         ),
       },
