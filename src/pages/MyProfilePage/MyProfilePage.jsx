@@ -114,21 +114,22 @@ const MyProfilePage = () => {
               Update Profile
             </h3>
             <form onSubmit={handleUpdateProfile}>
-              <div className="mb-4">
-                <input
-                  type="text"
-                  placeholder="Display Name"
-                  value={displayName}
-                  onChange={(e) => setDisplayName(e.target.value)}
-                  className="w-full p-2 border rounded focus:ring focus:ring-blue-400 dark:bg-gray-700 dark:border-gray-600"
-                />
-              </div>
+              
               <div className="mb-4">
                 <input
                   type="text"
                   placeholder="Photo URL"
                   value={photoURL}
                   onChange={(e) => setPhotoURL(e.target.value)}
+                  className="w-full p-2 border rounded focus:ring focus:ring-blue-400 dark:bg-gray-700 dark:border-gray-600"
+                />
+              </div>
+              <div className="mb-4">
+                <input
+                  type="text"
+                  placeholder="Display Name"
+                  value={displayName}
+                  onChange={(e) => setDisplayName(e.target.value)}
                   className="w-full p-2 border rounded focus:ring focus:ring-blue-400 dark:bg-gray-700 dark:border-gray-600"
                 />
               </div>
