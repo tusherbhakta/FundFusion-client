@@ -1,6 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
 import Lottie from "lottie-react";
-import missionAnimation from "../../assets/mission.json"; // Replace with your animation JSON file path
+import missionAnimation from "../../assets/business-animatiom.json"; // Replace with your animation JSON file path
 import SectionTitle from "../SectionTitle/SectionTitle";
 import { Link } from "react-router-dom";
 
