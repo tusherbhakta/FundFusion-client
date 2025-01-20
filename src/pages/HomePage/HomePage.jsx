@@ -14,8 +14,8 @@ const HomePage = () => {
       <Helmet>
         <title>FundFusion | Home</title>
       </Helmet>
-      <Banner />
-      {/* <CarouselComp /> */}
+      {/* <Banner /> */}
+      <CarouselComp />
       <RunningCampaigns />
       <HowItWorks />
       <OurMission />
