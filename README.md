@@ -73,36 +73,6 @@ FundFusion/
 4. **Donations**: Donate to campaigns and view your contributions in "My Donations".  
 5. **Theme**: Toggle between dark and light modes for a personalized experience.  
 
-## 📌 Setup Instructions
-
-### Prerequisites
-- Node.js installed on your machine.
-- MongoDB connection string.
-
-### Steps to Run Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/fund-fusion.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd fund-fusion
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Set up environment variables:  
-   Create a `.env` file in the root directory with the following:  
-   ```
-   REACT_APP_FIREBASE_API_KEY=your-firebase-api-key
-   REACT_APP_MONGO_URI=your-mongodb-uri
-   ```
-5. Start the development server:
-   ```bash
-   npm start
-   ```
-
 ## 🛠 Challenges Solved
 
 - Built a fully responsive layout for seamless access across devices.  
@@ -121,8 +91,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 🧑‍💻 Author
 
 **[Tusher Bhakta]**  
-- GitHub: [Your GitHub Profile](https://github.com/tusherbhakta)  
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/tusherbhakta)  
+- GitHub: [tusherbhakta](https://github.com/tusherbhakta)  
+- LinkedIn: [tusherbhakta](https://linkedin.com/in/tusherbhakta)  
 
 ---
 
