@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const TermsOfService = () => {
   return (
@@ -48,8 +48,8 @@ const TermsOfService = () => {
           </p>
           <ul className="list-disc list-inside space-y-2 pl-4">
             <li>Not engaging in fraudulent or misleading practices.</li>
-            <li>Ensuring the accuracy of all campaign details and updates.</li>
             <li>Using funds solely for the stated campaign purpose.</li>
+            <li>Ensuring the accuracy of all campaign details and updates.</li>
           </ul>
         </section>
 

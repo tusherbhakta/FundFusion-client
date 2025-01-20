@@ -1,4 +1,5 @@
 import SectionTitle from "../SectionTitle/SectionTitle";
+import { FaRegLightbulb, FaHandHoldingHeart, FaGlobe } from "react-icons/fa";
 
 const HowItWorks = () => {
   const steps = [
@@ -6,45 +7,57 @@ const HowItWorks = () => {
       number: 1,
       title: "Create a Campaign",
       description: "Start your donation drive by creating a campaign.",
+      icon: <FaRegLightbulb size={28} className="text-indigo-500" />,
     },
     {
       number: 2,
       title: "Receive Donations",
       description: "Let people contribute to your cause effortlessly.",
+      icon: <FaHandHoldingHeart size={28} className="text-green-500" />,
     },
     {
       number: 3,
       title: "Make an Impact",
       description: "Deliver the donations and share the joy.",
+      icon: <FaGlobe size={28} className="text-blue-500" />,
     },
   ];
 
   return (
-    <section className="py-12 md:py-16 dark:bg-gray-900 dark:text-white text-gray-800">
+    <section className="py-12 md:py-16 bg-gradient-to-r from-indigo-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900 dark:text-white">
       <div className="px-4 max-w-7xl mx-auto">
         {/* Section Heading */}
-        <SectionTitle title="How It Works" subtitle="Discover how simple it is to start making a difference" />
+        <SectionTitle
+          title="How It Works"
+          subtitle="Discover how simple it is to start making a difference"
+        />
         {/* Steps */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-12">
           {steps.map((step, index) => (
             <div
               key={index}
-              className={`flex flex-col items-center text-center space-y-6 p-6 rounded-xl shadow-lg transition-transform transform hover:scale-105 
-              dark:bg-gray-800 dark:text-gray-300
-              bg-white text-gray-800
-              `}
+              className="relative flex flex-col items-center text-center space-y-4"
             >
+              {/* Connecting Line */}
+              {index !== steps.length - 1 && (
+                <div className="hidden md:block absolute top-1/2 -right-8 w-16 h-1 bg-indigo-300 dark:bg-indigo-500"></div>
+              )}
+              {/* Step Icon */}
+              <div className="w-16 h-16 flex items-center justify-center rounded-full bg-white dark:bg-gray-700 shadow-lg">
+                {step.icon}
+              </div>
               {/* Step Number */}
-              <div
-                className={`w-12 h-12 flex items-center justify-center rounded-full font-bold bg-indigo-400 text-gray-900" dark:bg-indigo-500 dark:text-white
-                `}
-              >
-                {step.number}
+              <div className="text-sm font-bold text-gray-600 dark:text-gray-400">
+                Step {step.number}
               </div>
               {/* Step Title */}
-              <h3 className="text-2xl font-semibold">{step.title}</h3>
+              <h3 className="text-xl font-semibold text-indigo-700 dark:text-indigo-400">
+                {step.title}
+              </h3>
               {/* Step Description */}
-              <p className="text-lg">{step.description}</p>
+              <p className="text-sm text-gray-700 dark:text-gray-300">
+                {step.description}
+              </p>
             </div>
           ))}
         </div>
@@ -54,3 +67,4 @@ const HowItWorks = () => {
 };
 
 export default HowItWorks;
+
