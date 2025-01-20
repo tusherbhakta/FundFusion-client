@@ -23,6 +23,8 @@ const RunningCampaigns = () => { // Default limit to 6
         fetchCampaigns();
     }, []);
 
+    // console.log(campaigns)
+
     return (
         <section className="bg-gray-100 dark:bg-gray-900">
             <div className="py-10 md:py-16 max-w-6xl mx-auto px-4">
