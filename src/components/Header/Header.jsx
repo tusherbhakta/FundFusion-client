@@ -54,6 +54,17 @@ const Header = () => {
       )}
       {user && (
         <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            `px-4 py-2 md:text-sm lg:text-md font-semibold rounded-lg mr-2 ${isActive ? 'bg-indigo-600 text-white' : 'bg-transparent dark:text-gray-200'
+            }`
+          }
+        >
+          About Us
+        </NavLink>
+      )}
+      {user && (
+        <NavLink
           to="/my-donations"
           className={({ isActive }) =>
             `px-4 py-2 md:text-sm lg:text-md font-semibold rounded-lg mr-2 ${isActive ? 'bg-indigo-600 text-white' : 'bg-transparent dark:text-gray-200'
