@@ -32,7 +32,7 @@ const RunningCampaigns = () => { // Default limit to 6
                 <div className="flex justify-center items-center" >
                     <CampaignCard campaigns={campaigns} />
                 </div>
-                <div className="flex justify-center items-center my-6">
+                <div className="flex justify-center items-center my-5">
                     <Link to="/campaigns" className=" text-center text-white text-lg rounded-lg px-6 py-2 bg-indigo-600 dark:text-indigo-400 font-semibold mt-4 hover:underline">See More</Link>
                 </div>
             </div>
