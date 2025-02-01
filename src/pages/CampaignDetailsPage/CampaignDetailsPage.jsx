@@ -182,7 +182,7 @@ const CampaignDetailsPage = () => {
                   onClick={handleDonate}
                   className="btn btn-primary dark:bg-green-600"
                 >
-                  Donate
+                  Donate Now
                 </button>
               </div>
             </div>
