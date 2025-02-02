@@ -23,7 +23,7 @@ const AboutUs = () => {
       {/* Our Mission Section */}
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <motion.img 
-          src="https://source.unsplash.com/600x400/?team,success" 
+          src="https://images.unsplash.com/photo-1589561253898-768105ca91a8?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
           alt="Our Mission" 
           className="rounded-lg shadow-lg w-full"
           initial={{ opacity: 0, scale: 0.9 }}
