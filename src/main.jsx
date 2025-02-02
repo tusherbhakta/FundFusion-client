@@ -19,6 +19,7 @@ import PrivateRoute from './routes/PrivateRoute'
 import UpdateCampaigns from './pages/UpdateCampaigns/UpdateCampaigns'
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy'
 import TermsOfService from './pages/TermsOfService/TermsOfService'
+import AboutUs from './pages/AboutUsPage/AboutUs'
 
 const router = createBrowserRouter([
   {
@@ -97,6 +98,10 @@ const router = createBrowserRouter([
       {
         path:'/terms-of-service',
         element:<TermsOfService/>
+      },
+      {
+        path:'/about',
+        element:<AboutUs></AboutUs>
       }
     ]
   },
