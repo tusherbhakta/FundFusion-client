@@ -1,3 +1,5 @@
+<img src="https://i.ibb.co/k2BFfSQS/image.png">
+
 # Fund Fusion: A Crowdfunding Application
 
 **Fund Fusion** is a dynamic crowdfunding platform that allows individuals to raise funds for personal, creative, or business projects by inviting others to contribute financially. Built with modern technologies, it features a responsive design, secure authentication, and intuitive user experiences.
